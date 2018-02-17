@@ -54,7 +54,10 @@
 
   <?php include 'modules/navegation.php'; ?>
 <section>
-  
+  <?php
+  $mvc=new MvcController();
+  $mvc->enlacesPaginasController();
+   ?>
 </section>
 
   </body>
